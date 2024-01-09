@@ -1,0 +1,72 @@
+#parent{
+    background-color: antiquewhite;
+    height:100%;
+    
+  }
+  html,body{
+    margin:0px;
+    height:100%;
+  }
+  .child{
+    background-color: rgb(47, 127, 47);
+    height:250px;
+    width:500px;
+    border-radius: 30px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+  
+  .subchild1{
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+  .row{
+  padding: 25px 20px 30px 20px;
+  font-size: 20px;
+  color:white;
+  }
+  
+  .text-input{
+    position: absolute;
+    top:12%;
+    left:45%;
+    padding: 5px;
+  }
+  .second{
+    padding: 5px 20px 0px 20px;
+  font-size: 20px;
+  color:white;
+  }
+  .text-inputt{
+    position: absolute;
+    top:40%;
+    left:45%;
+    padding: 5px;
+  }
+  
+  #submit {
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+    background-color:rgb(10, 90, 23);
+    color: #fff;
+    margin: auto;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top:70%;
+    left:38%;
+    padding: 5px;
+  }
+  
+  #submit:hover{
+    background-color:rgb(57, 219, 165);
+  }
